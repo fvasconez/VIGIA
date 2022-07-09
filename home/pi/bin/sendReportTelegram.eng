@@ -1,0 +1,5 @@
+#!/bin/bash
+
+MSG=`bash /home/pi/bin/getStats.sh eng $1`
+
+python3 /home/pi/bin/sendLastPic.py $MSG

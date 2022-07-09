@@ -1,0 +1,16 @@
+The crontab file for users can be edited (the "normal" way) using the command:
+$> crontab -e
+Then, the default editor opens and the file can be changed.
+
+To just check the contents of the crontab use the command:
+$> crontab -l
+
+***
+
+The crontab file is located on /var/spool/cron/crontabs/<username>
+
+***
+
+To define a crontab from a file it is possible to use the command:
+$> crontab -u <user> <file>
+
